@@ -21,7 +21,7 @@ def get_weather(city, tg_token):
               f"Влажность: {humidity}%\nДавление: {pressure} мм рт.ст\n"
               f"Скорость ветра: {wind} м/с\nРассвет: {sunrise}\n"
               f"Закат: {sunset}\n"
-              f"Хорошего дня! :)"
+              f"Хорошего дня!"
               )
 
     except Exception as ex:  #  сообщение об ошибке
