@@ -39,7 +39,8 @@ def get_weather(city, tg_token):
         print(f"Дата и время: {datetime.datetime.now().strftime('%Y-%m-%d — %H:%M')}\n"
               f"\n"
               f"Погода в городе: {city}\nТемпература: {current_weather}°C, Описание погоды: {wd}\n" # \n - символ новой строки
-              f"Влажность: {humidity}%\nДавление: {pressure} мм рт.ст\n"
+              f"Влажность: {humidity}%\n"
+              f"Давление: {pressure} мм рт.ст\n"
               f"Скорость ветра: {wind} м/с\n"
               f"Рассвет: {sunrise}\n"
               f"Закат: {sunset}\n"
