@@ -40,7 +40,8 @@ def get_weather(city, tg_token):
               f"\n"
               f"Погода в городе: {city}\nТемпература: {current_weather}°C, Описание погоды: {wd}\n" # \n - символ новой строки
               f"Влажность: {humidity}%\nДавление: {pressure} мм рт.ст\n"
-              f"Скорость ветра: {wind} м/с\nРассвет: {sunrise}\n"
+              f"Скорость ветра: {wind} м/с\n"
+              f"Рассвет: {sunrise}\n"
               f"Закат: {sunset}\n"
               f"Хорошего дня!"
               )
